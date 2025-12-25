@@ -2,13 +2,13 @@
 
 (Kaggle Telco Customer Churn Dataset)
 
-📌 Project Overview
+📌1. Project Overview
 
 Customer churn prediction is a critical business problem for telecom companies. This project uses the Kaggle Telco Customer Churn dataset to build machine learning models that predict whether a customer will churn (Yes/No) based on demographics, subscribed services, and billing information.
 
 To address class imbalance in the dataset, SMOTE was applied to improve model performance and recall for churned customers.
 
-🎯 Objectives
+🎯2. Objectives
 
 Analyze customer behavior and churn patterns
 
@@ -18,7 +18,7 @@ Build and evaluate machine learning classification models
 
 Identify key features influencing customer churn
 
-📊 Dataset Description
+📊3. Dataset Description
 
 Source: Kaggle – Telco Customer Churn
 
@@ -26,7 +26,7 @@ Total Records: 7,043 customers
 
 Target Variable: Churn (Yes / No)
 
-Feature Categories
+4. Feature Categories
 
 Demographics: gender, SeniorCitizen
 
@@ -36,7 +36,7 @@ Services: phone, internet, streaming services
 
 Billing: MonthlyCharges, TotalCharges
 
-🛠️ Tech Stack
+🛠️5. Tech Stack
 
 Language: Python
 
@@ -54,7 +54,7 @@ Scikit-learn
 
 imbalanced-learn (SMOTE)
 
-🔍 Methodology
+🔍6. Methodology
 
 Data Cleaning & Preparation
 
@@ -76,15 +76,15 @@ Applied SMOTE on training data
 
 Balanced churn vs non-churn classes
 
-Model Building
+7. Model Building
 
-Logistic Regression
+XG Boost
 
 Decision Tree Classifier
 
 Random Forest Classifier
 
-Model Evaluation
+8. Model Evaluation
 
 Accuracy
 
@@ -92,7 +92,7 @@ Precision, Recall, F1-score
 
 Confusion Matrix
 
-📈 Results & Key Insights
+📈9. Results & Key Insights
 
 SMOTE significantly improved recall for churned customers
 
